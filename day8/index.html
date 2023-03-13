@@ -1,81 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  </style>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> the display property</title>
-</head>
-  <style>
-    span.a{
-      display: inline;/*the default for span*/
-      width: 100px;
-      height: 100px;
-      padding: 5px;
-      border: 1px solid blue;
-      background-color: yellow;
-    }
-    span.b{
-      display: inline-block;
-      width: 100px;
-      height: 100px;
-      padding: 5px;
-      border: 1px solid blue;
-      background-color: yellow;
-    }
-    span.c{
-      display: block;
-      width: 100px;
-      height: 100px;
-      padding: 5px;
-      border: 1px solid blue;
-      background-color: yellow;
-    }
-    .nav li {
-      background-color: yellow;
-      list-style-type: none;
-      text-align:center;
-      margin: 0;
-      padding: 0;
-    }
-    .nav li {
-      display: inline-block;
-      font-size: 20px;
-      padding: 20px;
-    }
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the display property</title>
 
+    <style>
+      span.a {
+        display: inline; /*the default for span*/
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        border: 1px solid blue;
+        background-color: yellow;
+      }
+      span.b {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        border: 1px solid blue;
+        background-color: yellow;
+      }
+      span.c {
+        display: block;
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        border: 1px solid blue;
+        background-color: yellow;
+      }
+      .nav li {
+        background-color: yellow;
+        list-style-type: none;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+      .nav li {
+        display: inline-block;
+        font-size: 20px;
+        padding: 20px;
+      }
+    </style>
+  </head>
 
-  </style>
-  </html>
+  <body>
+    <h1>the display property</h1>
+
+    <h2>display:inline</h2>
+    <div>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. vestibulum
+      consequat scelerisque elit sit amet consequat.aliquam erat volutpat.<span
+        class="a"
+        >aliquam</span
+      ><span class="a">venenatis</span> gravida nisl sit amet facilisis.nullam
+      cursus fermentum velit sed laoreet.
+    </div>
+
+    <h2>display: inline-block</h2>
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. vestibulum
+      consequata scelerisque elit.sit amet consequat. aliquam erat
+      volutpat.<span class="b">aliquam</span
+      ><span class="b">venenatis</span> gravida nislsit amet facilisis.nullam
+      cursus fermentum velit sed laoreet.
+    </div>
+
+    <h2>display:block</h2>
+    <div>
+      Lorem ipsum, dolor sit amet consectetur adipiscing elit. vestibulum
+      consequat scelerisque elit sit ame consequat. aliquam erat volutpat.
+      <span class="c">aliquam</span><span class="c">venenatis</span> gravida
+      nisl sit amet facilisis.nullam cursus fermentum velit sed laoreet
+    </div>
+
+    <h1>horizontal navigaion links</h1>
+    <p>
+      by dwfault,list items are displayed vertically.in this exeample we use
+      diplayd:inline-block to display them horizontally (side by side)
+    </p>
+    <p>
+      note:if resize the browser window,the links will automatically break when
+      it because too crowed.
+    </p>
+
+    <ul class="nav">
+      <li><a href="#home">home</a></li>
+      <li><a href="#about">about us</a></li>
+      <li><a href="#clients">our clients</a></li>
+      <li><a href="#contact">contact us</a></li>
+    </ul>
   </body>
-  <h1>the display property</h1>
-
-
-  <h2>display:inline</h2>
-  <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. vestibulum consequat scelerisque elit sit amet consequat.aliquam erat volutpat.<span class="a">aliquam</span><span class="a">venenatis</span> gravida nisl sit amet facilisis.nullam cursus fermentum velit sed laoreet.</div>
-
-
-<h2>display: inline-block</h2>
-  <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. vestibulum consequata scelerisque elit.sit amet consequat. aliquam erat volutpat.<span class="b">aliquam</span><span class="b">venenatis</span> gravida nislsit amet facilisis.nullam cursus fermentum velit sed laoreet.</div>
-
-
- <h2>display:block</h2>
- <div>Lorem ipsum, dolor sit amet consectetur adipiscing elit. vestibulum consequat scelerisque elit sit ame consequat. aliquam erat volutpat. <span class="c">aliquam</span><span class="c">venenatis</span> gravida nisl sit amet facilisis.nullam cursus fermentum velit sed laoreet </div>
-
-
-<h1>horizontal navigaion links</h1>
-<p>by dwfault,list items are displayed vertically.in this exeample we use diplayd:inline-block to display them horizontally (side by side)</p>
-<p>note:if resize the browser window,the links will automatically break when it because too crowed. </p>
-
-
-<ul class="nav">
-  <li><a href="#home">home</a></li>
-  <li><a href="#about">about us</a>/li>
-   <li><a href="#clients">our clients</a>/li>
-  <li><a href="#contact">contact us</a>/li>
-</ul>
-
-
-</body>
 </html>
