@@ -1,0 +1,31 @@
+
+.header{
+  border-bottom: 2px solid #000;
+}
+.header h1{
+  text-align: center;
+}
+.navigation {
+  border-bottom: 2px solid #000;
+}
+.navigation h1 {
+  text-align: center;
+}
+
+.index {
+  width: 200px;
+  border-right: 2px solid #000;
+  height: 400px;
+  float: left;
+}
+.content h1 {
+  text-align: center;
+}
+
+.clear {
+  clear: both;
+}
+
+.footer h1 {
+  text-align: center;
+}

@@ -1,0 +1,21 @@
+
+body {
+  background-color: purple;
+}
+.container {
+  height: 800px;
+  width: 1000px;
+  margin: 30px auto;
+}
+.first {
+  background-color: plum;
+  height: 150px;
+}
+.second {
+  background-color: white;
+  height: 600px;
+}
+.third {
+  background-color: pink;
+  height: 50px;
+}

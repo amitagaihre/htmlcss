@@ -1,0 +1,44 @@
+body {
+  background-color: brown;
+}
+.container {
+  height: 800px;
+  width: 1000px;
+  margin: 30px auto;
+}
+.first {
+  background-color: blueviolet;
+  height: 100px;
+}
+.second {
+  background-color: aquamarine;
+  height: 100px;
+}
+.third {
+  background-color: aqua;
+  height: 500px;
+}
+.four {
+  background-color:blue;
+  height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
