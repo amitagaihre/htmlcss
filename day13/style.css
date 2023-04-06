@@ -56,10 +56,10 @@ body {
   padding: 14px 16px;
   text-decoration: none;
 }
-.topnav a:hover [
+.topnav a:hover {
   background-color: #ddd;
   color:black;
-]
+}
 .leftcolumn {
   float: left;
   width: 75%;
@@ -89,7 +89,7 @@ body {
     padding:20px;
     text-align:center;
     background:#ddd;
-    margin-tpo:20px;
+    margin-top:20px;
   }
   @media screen and (max-width:800px) {
     .leftcolumn, .rightcolumn {
@@ -104,4 +104,3 @@ body {
     }
   }
   
-}
