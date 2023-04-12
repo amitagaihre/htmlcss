@@ -1,0 +1,29 @@
+table,tr,td{
+  border: 1px solid;
+}
+.header {
+  text-align: center;
+  font-weight: bolder;
+  background-color: #80b327;
+  color: white;
+}
+.mainrow{
+  background-color: #e4ffb7;
+  color: black;
+}
+.altrow{
+  background-color: #efffd2;
+}
+.richard{
+  background-color:#e4ffb7;
+  
+}
+.john{
+  background-color: #efffd2;
+}
+.tony{
+  background-color: #e4ffb7;
+}
+.scott{
+  background-color: #efffd2;
+}
